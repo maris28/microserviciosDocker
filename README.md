@@ -1,5 +1,9 @@
 # microserviciosDocker
-Proyecto que levanta un contenedor docker con microservicios de php y mysql para a través de un servicio SNS de aws, al rellenar el formulario inserte un registro en la tabla.
+En el archivo submit.php, modificar el arn que figura por el creado en el paso anterior.
+  - Crear un rol en la EC2 y le añadimos la política "SNSFullAccess".
+  - Teclear sudo docker-compose up.
+  - Acceder al formulario y rellenarlo.
+
 ## Requisitos técnicos
   - Instalar Docker.
   - Instalar docker-compose.
@@ -9,3 +13,4 @@ Proyecto que levanta un contenedor docker con microservicios de php y mysql para
   - Crear un rol en la EC2 y le añadimos la política "SNSFullAccess".
   - Teclear sudo docker-compose up.
   - Acceder al formulario y rellenarlo.
+Proyecto que levanta un contenedor docker con microservicios de php y mysql para a través de un servicio SNS de aws, al rellenar el formulario inserte un registro en la tabla.
